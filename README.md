@@ -1,70 +1,67 @@
-# Notra
+# Project Hub
 
-Personal writing voice profile and article archive for AI content generation.
+A catalog of published projects — tools, apps, frameworks, and experiments across AI, developer tooling, veterinary tech, finance, and more.
 
-## What is this?
+Connected to [Notra](https://usenotra.com) for automated content generation from shipped work.
 
-This repo contains my writing DNA — extracted from my Medium articles — so AI tools can generate content that matches my writing style.
+## Projects
 
-## Structure
+| Project | Description | Tags | Repo |
+|---------|-------------|------|------|
+| [Soul Agent Framework](projects/soul-agent-framework.md) | Configure AI agents through markdown, not code | `ai` `agents` `framework` | [repo](https://github.com/mingrath/soul-agent-framework) |
+| [Agent Factory](projects/agent-factory.md) | Spin up fully-deployed expert AI agents in under 2 minutes | `ai` `agents` `deployment` | [repo](https://github.com/mingrath/agent-factory) |
+| [OpenClaw Workspace](projects/openclaw-workspace.md) | Main agent workspace — SOUL, MEMORY, skills | `ai` `agents` `platform` | [repo](https://github.com/mingrath/openclaw-workspace) |
+| [AI Expert Chatbot](projects/ai-expert-chatbot.md) | Deploy a domain-expert AI chatbot with RAG + SSE streaming | `ai` `chatbot` `rag` `deployment` | [repo](https://github.com/mingrath/ai-expert-chatbot) |
+| [OpenClaw LINE Bot](projects/openclaw-line-bot.md) | AI chatbot for LINE OA using RAG | `ai` `chatbot` `tutorial` `line` | [repo](https://github.com/mingrath/openclaw-line-bot) |
+| [Phyathai7 AI](projects/phyathai7-ai.md) | AI clinical assistant — SOAP generator + dashboard + LINE chatbot | `ai` `veterinary` `dashboard` `chatbot` | [repo](https://github.com/mingrath/phyathai7-ai) |
+| [VetBlood AI](projects/vetblood-ai.md) | AI-powered animal blood test analyzer | `ai` `veterinary` `hackathon` | [repo](https://github.com/mingrath/vetblood-ai) |
+| [VetSikkha](projects/vetsikkha-app.md) | AI veterinary consultant web app (webchat + Telegram) | `ai` `veterinary` `chatbot` | [repo](https://github.com/mingrath/vetsikkha-app) |
+| [AIA Coach](projects/aia-coach.md) | AI training companion for new insurance agents | `ai` `insurance` `education` | [repo](https://github.com/mingrath/aia-coach) |
+| [AIA Smart Advisor](projects/aia-smart-advisor.md) | AI-powered sales assistant for insurance agents | `ai` `insurance` `sales` | [repo](https://github.com/mingrath/aia-smart-advisor) |
+| [SMEAI](projects/smeai.md) | AI knowledge hub for SME owners | `ai` `sme` `content` `website` | [repo](https://github.com/mingrath/smeai) |
+| [OpenClaw Actual Budget](projects/openclaw-actual-budget.md) | Finance AI agent — scan receipts, track expenses, query budgets | `ai` `finance` `automation` `telegram` | [repo](https://github.com/mingrath/openclaw-actual-budget) |
+| [Workspace Penny](projects/workspace-penny.md) | Personal finance AI agent (Actual Budget + Telegram) | `ai` `finance` `automation` `telegram` | [repo](https://github.com/mingrath/workspace-penny) |
+| [Ohm Oracle](projects/ohm-oracle.md) | Knowledge and decision support system | `ai` `personal-tools` | [repo](https://github.com/mingrath/ohm-oracle) |
+| [Claude Code Statusline](projects/claude-code-statusline.md) | Real-time rate limit usage display for Claude Code | `developer-tools` `claude-code` | [repo](https://github.com/mingrath/claude-code-statusline) |
+| [Claude Code Notify](projects/claude-code-notify.md) | Mac/iPhone/Watch notifications when Claude Code needs input | `developer-tools` `claude-code` `notifications` | [repo](https://github.com/mingrath/claude-code-notify) |
+| [Awesome Claude Skills](projects/awesome-claude-skills.md) | Curated list of Claude Code skills | `developer-tools` `claude-code` `curated-list` | [repo](https://github.com/mingrath/awesome-claude-skills) |
+| [DrawIO MCP](projects/drawio-mcp.md) | MCP server for LLMs to create diagrams in draw.io | `developer-tools` `mcp` `diagrams` | [repo](https://github.com/mingrath/drawio-mcp) |
+| [Expense Tracker](projects/expense-tracker.md) | Personal expense tracking app (Next.js) | `finance` `web-app` `nextjs` | [repo](https://github.com/mingrath/expense-tracker) |
+| [Actual Backup](projects/actual-backup.md) | Actual Budget auto-backup tool | `automation` `finance` `backup` | [repo](https://github.com/mingrath/actual-backup) |
+| [Telegram Order Dashboard](projects/telegram-order-dashboard.md) | Telegram bot + dashboard for small business order management | `business` `automation` `telegram` `dashboard` | [repo](https://github.com/mingrath/telegram-order-dashboard) |
+| [VetPhar](projects/vetphar.md) | Veterinary drug order aggregation system | `veterinary` `business` `automation` `telegram` | [repo](https://github.com/mingrath/vetphar) |
+| [Manu Glory](projects/manu-glory.md) | Manchester United fan dashboard | `sports` `dashboard` `supabase` | [repo](https://github.com/mingrath/manu-glory) |
+| [Golf Handicap](projects/golf-handicap.md) | Mobile-first PWA for handicap golf scoring | `sports` `pwa` `mobile` | [repo](https://github.com/mingrath/golf-handicap) |
+| [CatWhoCode](projects/catwhocode.md) | Developer-focused content website | `website` `content` | [repo](https://github.com/mingrath/catwhocode) |
+| [Web Clinic Demo](projects/web-clinic-demo.md) | Veterinary clinic demo website | `demo` `web-app` `veterinary` | [repo](https://github.com/mingrath/web-clinic-demo) |
+| [Weight Food Tracker](projects/weight-food-tracker.md) | Weight and food tracking application | `health` `web-app` | [repo](https://github.com/mingrath/weight-food-tracker) |
+| [MorMeow](projects/mormeow.md) | Web application | `web-app` | [repo](https://github.com/mingrath/mormeow) |
 
-```
-Notra/
-├── voice-profile/
-│   └── voice-profile.md    # Complete writing voice analysis & AI prompt template
-├── articles/                # Raw Medium articles (source material)
-│   ├── 01_*.md - 05_*.md   # Cat behavior articles
-│   ├── 06_*.md             # Brain & Metaverse
-│   ├── 07_*.md             # Siberian cats
-│   └── 08_*.md - 10_*.md   # Tech/Productivity (Microsoft Loop, Gmail)
-├── web-agency/              # Automated client intake form for web agency
-│   ├── scripts/
-│   │   └── create-intake-form.py   # Tally.so form creation via API (174 blocks, 7 pages)
-│   └── docs/
-│       └── client-intake-form-spec.md  # Full form specification
-└── README.md
-```
+## Tags
 
-## How to Use
+| Category | Tags |
+|----------|------|
+| AI & Agents | `ai` `agents` `framework` `chatbot` `rag` `platform` |
+| Developer Tools | `developer-tools` `claude-code` `mcp` `notifications` `curated-list` `diagrams` |
+| Veterinary | `veterinary` `hackathon` |
+| Finance | `finance` `automation` `backup` |
+| Business | `business` `insurance` `sme` `sales` `education` |
+| Apps & Web | `web-app` `pwa` `mobile` `dashboard` `website` `content` `demo` |
+| Sports | `sports` `supabase` |
+| Health | `health` |
+| Messaging | `telegram` `line` |
 
-### For AI Content Generation
+## How It Works
 
-Copy the prompt template from `voice-profile/voice-profile.md` (Section 8) and paste it into any AI tool (ChatGPT, Claude, etc.) along with your topic. The AI will write in my voice.
+This repo serves as a project catalog connected to [Notra](https://usenotra.com). When projects are updated, Notra reads the changes (PR titles, descriptions, commit messages) and auto-generates content — changelogs, blog posts, and social updates.
 
-### For Reference
+### Adding a New Project
 
-Read through the `articles/` folder to see real examples of my writing across different topics.
+1. Copy `TEMPLATE.md` to `projects/your-project-name.md`
+2. Fill in the frontmatter and sections
+3. Add the project to the table in this README
+4. Commit and push
 
-## Web Agency — Client Intake Form
+## License
 
-Automated client intake form builder for a web agency pipeline. Creates a 7-page, 174-block Tally.so form via API to collect business data from Thai SME clients before building their website.
-
-- **Script**: `web-agency/scripts/create-intake-form.py` — Creates the full form programmatically
-- **Spec**: `web-agency/docs/client-intake-form-spec.md` — Complete field-by-field specification
-- **Stack**: Python + Tally.so API (undocumented patterns discovered through reverse engineering)
-- **Form**: 7 pages covering business info, online presence, branding, services, website preferences, domain/delivery, and additional notes
-
-### Key Technical Discoveries
-
-The Tally.so API has several undocumented requirements not in official docs:
-1. `groupType` must match the block's own type (not `"QUESTION"`)
-2. Each input block needs its own unique `groupUuid`
-3. Choice options require `isFirst`/`isLast` boolean flags
-4. HTML tags like `<br>`, `<small>` are rejected in TITLE/FORM_TITLE blocks
-
-### Usage
-
-```bash
-export TALLY_API_KEY="your-api-key"
-python3 web-agency/scripts/create-intake-form.py
-```
-
-## Source
-
-All articles scraped from [medium.com/@ohmm](https://medium.com/@ohmm)
-
-## Author
-
-**Ohm Mekavichai** (มิ่งรัฐ เมฆวิชัย)
-- Medium: [@ohmm](https://medium.com/@ohmm)
-- GitHub: [@mingrath](https://github.com/mingrath)
+MIT
