@@ -33,6 +33,7 @@ Connected to [Notra](https://usenotra.com) for automated content generation from
 | [Manu Glory](projects/manu-glory.md) | Manchester United fan dashboard | `sports` `dashboard` `supabase` | [repo](https://github.com/mingrath/manu-glory) |
 | [Golf Handicap](projects/golf-handicap.md) | Mobile-first PWA for handicap golf scoring | `sports` `pwa` `mobile` | [repo](https://github.com/mingrath/golf-handicap) |
 | [CatWhoCode](projects/catwhocode.md) | Developer-focused content website | `website` `content` | [repo](https://github.com/mingrath/catwhocode) |
+| [Little Meow Pet Hospital](projects/little-meow-pet-hospital.md) | Conversion-optimized vet hospital website for Phitsanulok clinic | `veterinary` `website` `web-app` | [live](https://little-meow-pet-hospital.pages.dev) |
 | [Web Clinic Demo](projects/web-clinic-demo.md) | Veterinary clinic demo website | `demo` `web-app` `veterinary` | [repo](https://github.com/mingrath/web-clinic-demo) |
 | [Weight Food Tracker](projects/weight-food-tracker.md) | Weight and food tracking application | `health` `web-app` | [repo](https://github.com/mingrath/weight-food-tracker) |
 | [MorMeow](projects/mormeow.md) | Web application | `web-app` | [repo](https://github.com/mingrath/mormeow) |
